@@ -1,0 +1,51 @@
+body{
+    padding: 0;
+    margin: 0;
+    width:100vw;
+    max-width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 6, 41);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+body .form-container{
+    width: 30vw;
+    height: 70vh;
+    background: transparent;
+    box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 6;
+    border:2px solid white;
+}
+
+.my-text-area{
+    height: 200px;
+}
+
+.button-container{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#particles-js {
+    position: fixed;
+    top:0;
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+   z-index: 3;
+    background-color: rgb(0, 6, 41,0);
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
